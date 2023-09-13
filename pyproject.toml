@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "opencv-streaming"
+version = "0.1.0"
+description = "Simple app to fimiliarize with OpenCV library and video streaming"
+authors = ["Illia Papou"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+opencv-python = "^4.8.0.76"
+fastapi = "^0.103.1"
+imutils = "^0.5.4"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.5.1"
+black = "^23.9.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
